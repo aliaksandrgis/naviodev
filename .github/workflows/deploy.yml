@@ -13,10 +13,6 @@ concurrency:
   group: pages
   cancel-in-progress: false
 
-defaults:
-  run:
-    working-directory: navio-site
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -27,17 +23,16 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20.19.0'
+          node-version: "20.19.0"
           cache: npm
 
       - name: Install dependencies
         run: npm ci
+        working-directory: ./navio-site
 
       - name: Build project
         run: npm run build -- --mode production
-
-      - name: List dist contents
-        run: ls -la dist
+        working-directory: ./navio-site
 
       - name: Upload dist artifact
         uses: actions/upload-pages-artifact@v3
