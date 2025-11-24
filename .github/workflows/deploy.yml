@@ -27,8 +27,10 @@ jobs:
           node-version: "20.19.0"
           cache: npm
 
-      - name: Set base path for GitHub Pages
-        run: echo "VITE_BASE_PATH=/naviodev/" >> $GITHUB_ENV   # <-- ВАЖНО
+      - name: Set Vite env vars
+        run: |
+          echo "VITE_BASE_PATH=/naviodev/" >> $GITHUB_ENV
+          echo "VITE_CONTACT_ENDPOINT=https://api.naviodev.com/contact" >> $GITHUB_ENV
 
       - name: Install dependencies
         run: npm ci
