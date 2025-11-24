@@ -3,6 +3,7 @@
 on:
   push:
     branches: ["main"]
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -11,7 +12,7 @@ permissions:
 
 concurrency:
   group: pages
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   build:
@@ -28,16 +29,14 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
-        working-directory: ./navio-site
 
       - name: Build project
         run: npm run build -- --mode production
-        working-directory: ./navio-site
 
       - name: Upload dist artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: navio-site/dist
+          path: ./dist   # vite кладёт сюда билд
 
   deploy:
     needs: build
