@@ -29,7 +29,6 @@ jobs:
 
       - name: Set Vite env vars
         run: |
-          echo "VITE_BASE_PATH=/naviodev/" >> $GITHUB_ENV
           echo "VITE_CONTACT_ENDPOINT=https://api.naviodev.com/contact" >> $GITHUB_ENV
 
       - name: Install dependencies
