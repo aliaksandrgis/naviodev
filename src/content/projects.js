@@ -9,7 +9,7 @@
     name: "Data Pipelines Suite",
     description: "ETL/ELT pipelines on Airflow + Kafka with SLA/SLO monitoring.",
     stack: ["Airflow", "Kafka", "PostGIS", "Docker"],
-    links: { github: "https://github.com/example/data-pipelines", demo: "#" }
+    links: { github: "https://github.com/example/data-pipelines", demo: "https://air.naviodev.com" }
   },
   {
     name: "Mobile Field Toolkit",

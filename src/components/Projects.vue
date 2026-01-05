@@ -19,7 +19,7 @@ import { projects } from "../content/projects";
             <p class="muted">{{ project.description }}</p>
           </div>
           <div v-if="project.links" class="links">
-            <a v-if="project.links.demo" :href="project.links.demo" class="pill">Demo</a>
+            <a v-if="project.links.demo" :href="project.links.demo" class="pill demo-link">Demo</a>
             <a v-if="project.links.github" :href="project.links.github" class="pill">GitHub</a>
           </div>
         </div>
@@ -52,6 +52,12 @@ h3 {
   display: flex;
   gap: 8px;
   flex-wrap: wrap;
+}
+
+.demo-link:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: rgba(36, 199, 217, 0.12);
 }
 
 .stack {

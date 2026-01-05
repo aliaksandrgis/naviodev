@@ -1,4 +1,4 @@
-﻿<script setup>
+<script setup>
 import { navLinks } from "../content/navigation";
 import headerLogo from "../assets/header-logo.png";
 </script>
@@ -105,3 +105,4 @@ import headerLogo from "../assets/header-logo.png";
   }
 }
 </style>
+

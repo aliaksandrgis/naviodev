@@ -1,4 +1,4 @@
-﻿<script setup>
+<script setup>
 import { aboutCards, aboutText } from "../content/about";
 </script>
 
@@ -7,9 +7,9 @@ import { aboutCards, aboutText } from "../content/about";
     <div class="section-header">
       <div>
         <p class="badge">About</p>
-        <h2 class="section-title">NavioDev — engineering studio</h2>
+        <h2 class="section-title">NavioDev - showcase studio</h2>
       </div>
-      <p class="section-subtitle">Geo, Data, Backend, Web, Mobile — end to end</p>
+      <p class="section-subtitle">Geo, Data, Backend, Web, Mobile � end to end</p>
     </div>
     <p class="about-text">{{ aboutText }}</p>
     <div class="cards">
@@ -53,3 +53,5 @@ import { aboutCards, aboutText } from "../content/about";
   font-weight: 700;
 }
 </style>
+
+

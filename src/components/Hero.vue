@@ -1,4 +1,4 @@
-﻿<script setup>
+<script setup>
 import { heroTags } from "../content/hero";
 </script>
 
@@ -6,9 +6,9 @@ import { heroTags } from "../content/hero";
   <section id="top" class="section hero fade-in">
     <div class="hero-grid">
       <div class="headline">
-        <p class="badge">GIS • Data • Apps</p>
+        <p class="badge">GIS / Data / Apps</p>
         <h1>GIS / Data / Apps Development</h1>
-        <p class="lede">Studio focused on geospatial solutions, data pipelines and modern applications.</p>
+        <p class="lede">Showcase studio for geospatial solutions, data pipelines, and modern applications.</p>
         <div class="actions">
           <a class="button primary" href="#projects">View Projects</a>
           <a class="button ghost" href="#contact">Contact</a>
@@ -68,3 +68,4 @@ import { heroTags } from "../content/hero";
   }
 }
 </style>
+

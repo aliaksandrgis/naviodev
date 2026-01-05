@@ -104,7 +104,7 @@ const copyEmail = async () => {
     <div class="section-header">
       <div>
         <p class="badge">Contact</p>
-        <h2 class="section-title">Contact us</h2>
+        <h2 class="section-title">Get in touch</h2>
       </div>
     </div>
     <div class="card contact-card">
@@ -147,7 +147,7 @@ const copyEmail = async () => {
             <button class="button primary" type="submit" :disabled="submitting">
               {{ submitting ? 'Sending?' : 'Send message' }}
             </button>
-            <p class="muted note">We usually reply within 1 business day</p>
+            <p class="muted note">Response typically within 1 business day</p>
           </div>
           <p v-if="status" class="status" :class="status === 'success' ? 'success' : 'error'">
             {{ statusMessage }}
@@ -314,3 +314,4 @@ textarea {
   }
 }
 </style>
+

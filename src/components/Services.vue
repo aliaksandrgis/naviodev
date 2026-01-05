@@ -1,4 +1,4 @@
-﻿<script setup>
+<script setup>
 import { services } from "../content/services";
 </script>
 
@@ -7,7 +7,7 @@ import { services } from "../content/services";
     <div class="section-header">
       <div>
         <p class="badge">Services</p>
-        <h2 class="section-title">What we build</h2>
+        <h2 class="section-title">Focus areas</h2>
       </div>
       <p class="section-subtitle">Design, delivery, and long-term support</p>
     </div>
@@ -63,3 +63,4 @@ import { services } from "../content/services";
   opacity: 0.7;
 }
 </style>
+
