@@ -9,7 +9,6 @@ import { projects } from "../content/projects";
         <p class="badge">Projects</p>
         <h2 class="section-title">Recent work</h2>
       </div>
-      <p class="section-subtitle">GitHub-first with available demos</p>
     </div>
     <div class="cards">
       <article v-for="project in projects" :key="project.name" class="card project">
