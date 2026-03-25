@@ -1,5 +1,5 @@
 export const aboutText =
-  "NavioDev is a showcase studio focused on geospatial systems, data pipelines, and modern applications. The studio builds reliable backend services, interactive maps, automation workflows, and cross-platform products. Engineering rigor, geospatial expertise, and product thinking come together to deliver end-to-end solutions.";
+  "NavioDev is a studio focused on geospatial systems, data pipelines, and modern applications. The studio builds reliable backend services, interactive maps, automation workflows, and cross-platform products. Engineering rigor, geospatial expertise, and product thinking come together to deliver end-to-end solutions.";
 
 export const aboutCards = [
   {

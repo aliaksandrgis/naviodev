@@ -7,7 +7,7 @@ import { aboutCards, aboutText } from "../content/about";
     <div class="section-header">
       <div>
         <p class="badge">About</p>
-        <h2 class="section-title">NavioDev - showcase studio</h2>
+        <h2 class="section-title">NavioDev - studio</h2>
       </div>
       <p class="section-subtitle">Geo, Data, Backend, Web, Mobile, end to end</p>
     </div>
